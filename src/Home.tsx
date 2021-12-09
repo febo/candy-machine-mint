@@ -43,7 +43,7 @@ const Home = (props: HomeProps) => {
   const [isMinting, setIsMinting] = useState(false); // true when user got to press MINT
 
   const [itemsAvailable, setItemsAvailable] = useState(0);
-  const [itemsRedeemed, setItemsRedeemed] = useState(0);
+  //const [itemsRedeemed, setItemsRedeemed] = useState(0);
   const [itemsRemaining, setItemsRemaining] = useState(0);
 
   const [alertState, setAlertState] = useState<AlertState>({
@@ -75,7 +75,7 @@ const Home = (props: HomeProps) => {
 
       setItemsAvailable(itemsAvailable);
       setItemsRemaining(itemsRemaining);
-      setItemsRedeemed(itemsRedeemed);
+      //setItemsRedeemed(itemsRedeemed);
 
       setIsSoldOut(itemsRemaining === 0);
       setStartDate(goLiveDate);
