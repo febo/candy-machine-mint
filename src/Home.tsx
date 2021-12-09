@@ -66,7 +66,7 @@ const Home = (props: HomeProps) => {
         goLiveDate,
         itemsAvailable,
         itemsRemaining,
-        itemsRedeemed,
+        //itemsRedeemed,
       } = await getCandyMachineState(
         wallet as anchor.Wallet,
         props.candyMachineId,
