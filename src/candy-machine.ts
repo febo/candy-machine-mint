@@ -7,7 +7,7 @@ import {
 } from "@solana/spl-token";
 
 export const CANDY_MACHINE_PROGRAM = new anchor.web3.PublicKey(
-  "cndyAnrLdpjq1Ssp1z8xxDsB8dxe7u4HL5Nxi2K5WXZ"
+  "5mWsQ6T8ESxj9XV1GRMEk4Jd8X42hcQhst5sV2j1oGuf"
 );
 
 const SPL_ASSOCIATED_TOKEN_ACCOUNT_PROGRAM_ID = new anchor.web3.PublicKey(
